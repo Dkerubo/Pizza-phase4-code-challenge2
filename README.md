@@ -71,6 +71,7 @@ Use the following commands to create the initial database `app.db`:
 ```console
 export FLASK_APP=server/app.py
 flask db init
+flask db migrate
 flask db upgrade head
 ```
 
